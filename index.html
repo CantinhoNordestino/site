@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=800, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>CantinhoNordestino</title>
+		<link rel="stylesheet" href="./main/css/logobanner.css">
+		<link rel="stylesheet" href="./main/css/cadapioitems.css">
+		<link rel="stylesheet" href="./main/css/listacompra.css">
+		<link rel="stylesheet" href="./main/css/btnwhatapp.css">
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+		<meta property="og:locale" content="pt_BR">
+		<meta property="og:type" content="article">
+		<meta property="og:title" content="Cantinho Nordestino: Cardápio">
+		<meta property="og:description" content="Faça seu pedido ou conheça nossas redes sociais.">
+		<meta property="og:site_name" content="Cantinho Nordestino">
+		<meta property="og:image" content="https://cantinhonordestino.github.io/site/image/reaisafotorecordade.jpeg">
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="630">
+		<meta property="og:image:type" content="image/jpeg">
+	</head>
+	<style>
+		*,*::before,*::after {box-sizing: border-box;margin: 0;padding: 0;}
+		body {font-family: 'Ubuntu', sans-serif;}
+	</style>
+	<body>
+		<div id="main-container">
+			<div id="secundary-container">
+				<!-- OPEN PERFIL E BANNER -->
+				<div class="perfil-logo">
+					<div class="logo" style="background-color:#000000;">
+					</div>
+					<div class="perfil" >
+						<div class="perfil-foto"></div>
+						<div class="perfil-text">
+							<div style="display:flex;">
+								<h1>Cantinho Nordestino</h1>
+								<img src="./main/image/exclamation.png" width="20" height="20">
+							</div>
+							<div class="delivery-time">
+								<img src="./main/image/fast-delivery.png" width="20" height="20">
+								<span>30 - 50min.</span>
+							</div>
+						</div>
+						<div class="perfil-text-zap">
+							<a href="https://wa.me/558393888686" target="_blank"><img src="./main/image/app.png" width="23" height="23"></a>
+						</div>
+						<div class="perfil-text-zap">
+							<a href="" target="_blank"><img src="./main/image/facebook.png" width="23" height="23"></a>
+						</div>
+						<div class="perfil-text-zap">
+							<a href="" target="_blank"><img src="./main/image/instagram.png" width="23" height="23"></a>
+						</div>
+						<div class="perfil-text-zap">
+							<a href="" target="_blank"><img src="./main/image/location.png" width="23" height="23"></a>
+						</div>
+						<div class="logo-status">
+							<span>Aberto&nbsp;</span>
+							<img src="./main/image/clock.png" width="15" height="15">
+						</div>
+					</div>
+				</div>
+				<!-- CLOSE PERFIL E BANNER -->
+				<!-- OPEN comidas -->
+				<div id="container-receitas">
+					<!-- parte de cima do cardapio -->
+					<div class="container-center"></div>
+					<!-- OPEN Cardapio AÇAI -->
+					<div class="titulo-comida">
+						<img src="./main/image/cactus.png" width="23" height="23">
+						<span>AÇAI</span>
+						<img src="./main/image/cactus.png" width="23" height="23">
+					</div>
+					<div id="cardapio-acai"></div>
+					<!-- OPEN Cardapio BEBIDAS -->
+					<div class="titulo-comida">
+						<img src="./main/image/cactus.png" width="23" height="23">
+						<span>COMIDAS</span>
+						<img src="./main/image/cactus.png" width="23" height="23">
+					</div>
+					<div id="cardapio-comidas"></div>
+					<!-- OPEN lanches -->
+					<div class="titulo-comida">
+						<img src="./main/image/cactus.png" width="23" height="23">
+						<span>LANCHES RAPIDOS</span>
+						<img src="./main/image/cactus.png" width="23" height="23">
+					</div>
+					<div id="cardapio-lanches"></div>
+					<!-- CLOSE lanches -->
+					<!-- OPEN Cardapio BEBIDAS -->
+					<div class="titulo-comida">
+						<img src="./main/image/cactus.png" width="23" height="23">
+						<span>BEBIDAS</span>
+						<img src="./main/image/cactus.png" width="23" height="23">
+					</div>
+					<div id="cardapio-bebidas"></div>
+					<!-- CLOSE Cardapio BEBIDAS -->
+				</div>
+				<!-- CLOSE comidas -->
+				<!-- OPEN LISTA DE COMPRAS -->
+				<div id="lista-compras">
+					<h2>Pedidos <img src="./main/image/compras-online.png" width="25" height="25"></h2>
+					<ul id="itens-lista"></ul>
+					<div id="total-pedido" style="text-align: center; font-weight: bold; font-size: 18px; margin-top: 10px;">
+						Total: R$ 0,00
+					</div>
+					<button id="enviar-whatsapp">Enviar pedido via WhatsApp.</button>
+				</div>
+				<!-- CLOSE LISTA DE COMPRAS -->
+			</div>
+		</div>
+<!-- START Widget WhastApp hospedagemwordpresspro -->
+<a href="https://wa.me/558393888686" id="waurlsite" class="bt-whatsApp" target="_blank" >
+<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMjYxOSA1MDYgMTIwIDEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogIzI3ZDA0NTsKICAgICAgfQoKICAgICAgLmNscy0yLCAuY2xzLTUgewogICAgICAgIGZpbGw6IG5vbmU7CiAgICAgIH0KCiAgICAgIC5jbHMtMiB7CiAgICAgICAgc3Ryb2tlOiAjZmZmOwogICAgICAgIHN0cm9rZS13aWR0aDogNXB4OwogICAgICB9CgogICAgICAuY2xzLTMgewogICAgICAgIGZpbGw6ICNmZmY7CiAgICAgIH0KCiAgICAgIC5jbHMtNCB7CiAgICAgICAgc3Ryb2tlOiBub25lOwogICAgICB9CiAgICA8L3N0eWxlPjwvZGVmcz48ZyBkYXRhLW5hbWU9Ikdyb3VwIDM2IiBpZD0iR3JvdXBfMzYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIzMDAgNzMpIj48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjYwIiBjeT0iNjAiIGRhdGEtbmFtZT0iRWxsaXBzZSAxOCIgaWQ9IkVsbGlwc2VfMTgiIHI9IjYwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMTkgNDMzKSIvPjxnIGRhdGEtbmFtZT0iR3JvdXAgMzUiIGlkPSJHcm91cF8zNSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjU0IDM4NikiPjxnIGRhdGEtbmFtZT0iR3JvdXAgMzQiIGlkPSJHcm91cF8zNCI+PGcgY2xhc3M9ImNscy0yIiBkYXRhLW5hbWU9IkVsbGlwc2UgMTkiIGlkPSJFbGxpcHNlXzE5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5NCA3NSkiPjxjaXJjbGUgY2xhc3M9ImNscy00IiBjeD0iMzEuNSIgY3k9IjMxLjUiIHI9IjMxLjUiLz48Y2lyY2xlIGNsYXNzPSJjbHMtNSIgY3g9IjMxLjUiIGN5PSIzMS41IiByPSIyOSIvPjwvZz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0xNDI0LDE5MWwtNC42LDE2LjMsMTYuOS00LjcuOS01LjItMTEsMy41LDIuOS0xMC41WiIgZGF0YS1uYW1lPSJQYXRoIDEyNiIgaWQ9IlBhdGhfMTI2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTMyNSAtNjgpIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTI2Niw5MGMwLS4xLDMuNS0xMS43LDMuNS0xMS43bDguNCw3LjlaIiBkYXRhLW5hbWU9IlBhdGggMTI3IiBpZD0iUGF0aF8xMjciIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMTY1IDQzKSIvPjwvZz48cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0xNDM5LjMsMTYwLjZhOS40LDkuNCwwLDAsMC0zLjksNi4xYy0uNSwzLjksMS45LDcuOSwxLjksNy45YTUwLjg3Niw1MC44NzYsMCwwLDAsOC42LDkuOCwzMC4xODEsMzAuMTgxLDAsMCwwLDkuNiw1LjEsMTEuMzc4LDExLjM3OCwwLDAsMCw2LjQuNiw5LjE2Nyw5LjE2NywwLDAsMCw0LjgtMy4yLDkuODUxLDkuODUxLDAsMCwwLC42LTIuMiw1Ljg2OCw1Ljg2OCwwLDAsMCwwLTJjLS4xLS43LTcuMy00LTgtMy44cy0xLjMsMS41LTIuMSwyLjYtMS4xLDEuNi0xLjksMS42LTQuMy0xLjQtNy42LTQuNGExNS44NzUsMTUuODc1LDAsMCwxLTQuMy02cy42LS43LDEuNC0xLjhhNS42NjQsNS42NjQsMCwwLDAsMS4zLTIuNGMwLS41LTIuOC03LjYtMy41LTcuOUExMS44NTIsMTEuODUyLDAsMCwwLDE0MzkuMywxNjAuNloiIGRhdGEtbmFtZT0iUGF0aCAxMjgiIGlkPSJQYXRoXzEyOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEzMjYuMzMyIC02OC40NjcpIi8+PC9nPjwvZz48L3N2Zz4=" alt="" width="60px">
+</a>
+<span id="alertWapp" > 1 </span>
+<div id="msg1" >Alguma dúvida?, entre em contato conosco.</div>
+<script type="text/javascript">function showIt2() {document.getElementById("msg1").style.visibility = "visible";}    setTimeout("showIt2()", 5000); function hiddenIt() {document.getElementById("msg1").style.visibility = "hidden";}setTimeout("hiddenIt()",6000); function showIt3() {document.getElementById("msg1").style.visibility = "visible";} setTimeout("showIt3()", 1000);  msg1.onclick = function() {document.getElementById('msg1').style.visibility = "hidden"; };function alertW() { document.getElementById("alertWapp").style.visibility = "visible";	} setTimeout("alertW()", 1000); </script>
+<!-- END Widget WhastApp -->
+<script src="./main/js/newscript.js"></script>
+	</body>
+</html>
